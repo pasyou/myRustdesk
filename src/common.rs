@@ -1058,7 +1058,7 @@ fn get_api_server_(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "http://10.120.0.25:21114".to_owned()
+    "http://myRustdesk.com:21114".to_owned()
 }
 
 #[inline]
